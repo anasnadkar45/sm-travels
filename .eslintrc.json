@@ -4,7 +4,6 @@
     "next/typescript"
   ],
   "rules": {
-    "semi": "error",
-    "prefer-const": "error"
+    "@typescript-eslint/no-empty-interface": "off"
   }
 }
