@@ -18,7 +18,7 @@ export default function ModernLandingPage() {
   });
 
   // Handler to update state on input change
-  const handleInputChange = (e: { target: { name: any; value: any; }; }) => {
+  const handleInputChange = (e: { target: { name: string; value: string; }; }) => {
     const { name, value } = e.target;
     setTripDetails({
       ...tripDetails,
@@ -43,17 +43,6 @@ export default function ModernLandingPage() {
 
     // Open WhatsApp with pre-filled message
     window.open(whatsappUrl, "_blank");
-  };
-
-  // Settings for react-slick carousel
-  const sliderSettings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
   };
 
   return (
