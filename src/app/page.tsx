@@ -37,7 +37,7 @@ export default function ModernLandingPage() {
     }
 
     // WhatsApp message URL with trip details
-    const whatsappUrl = `https://wa.me/7083989774?text=${encodeURIComponent(
+    const whatsappUrl = `https://wa.me/9422519299?text=${encodeURIComponent(
       `Trip Details:\n\nDestination: ${destination}\nDate: ${date}\nDays: ${days}\n\nLooking forward to this trip!`
     )}`;
 
@@ -92,7 +92,7 @@ export default function ModernLandingPage() {
                   <a href="#services" className="text-gray-600 hover:text-yellow-500 transition-colors">Services</a>
                   <a href="#about" className="text-gray-600 hover:text-yellow-500 transition-colors">About</a>
                   <a href="#contact" className="text-gray-600 hover:text-yellow-500 transition-colors">Contact</a>
-                  <a href="https://wa.me/7083989774" target="_blank" rel="noopener noreferrer">
+                  <a href="https://wa.me/9422519299" target="_blank" rel="noopener noreferrer">
                     <Button className="bg-yellow-500 hover:bg-yellow-600 text-white">
                       Book Now
                     </Button>
@@ -254,7 +254,7 @@ export default function ModernLandingPage() {
                 </ul>
                 <Button
                   className="mt-6 bg-yellow-500 hover:bg-yellow-600 text-white transform hover:scale-105 transition duration-300 ease-in-out"
-                  onClick={() => window.open('https://wa.me/7083989774', '_blank')}
+                  onClick={() => window.open('https://wa.me/9422519299', '_blank')}
                 >
                   Book This Vehicle
                 </Button>
@@ -325,7 +325,7 @@ export default function ModernLandingPage() {
                   ></textarea>
                   <Button
                     className="w-full bg-yellow-500 hover:bg-yellow-600 text-white transform hover:scale-105 transition duration-300 ease-in-out"
-                    onClick={() => window.open('https://wa.me/7083989774', '_blank')}
+                    onClick={() => window.open('https://wa.me/9422519299', '_blank')}
                   >
                     Send Message via WhatsApp
                   </Button>
