@@ -46,7 +46,7 @@ export default function ModernLandingPage() {
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white w-full">
       {/* Header */}
       <motion.header
         initial={{ y: -100 }}
