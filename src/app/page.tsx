@@ -76,7 +76,7 @@ export default function ModernLandingPage() {
           <div className="flex items-center space-x-4">
             <Button
               className="hidden md:inline-flex bg-yellow-500 hover:bg-yellow-600 text-white transform hover:scale-105 transition duration-300 ease-in-out"
-              onClick={() => window.open('https://wa.me/7083989774', '_blank')}
+              onClick={() => window.open('https://wa.me/9422519299', '_blank')}
             >
               Book Now
             </Button>
